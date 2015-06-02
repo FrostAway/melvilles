@@ -1,0 +1,63 @@
+/* Reset
+-------------------------------------------------------------- */
+/*
+Theme Name: Iziweb Camera Theme
+Theme URI: http://iziweb.vn/giao-dien
+Author: Iziweb
+Author URI: http://iziweb.vn
+Description: Giao diện website camera chuyên nghiệp
+Version: 1.0
+License: GNU General Public License
+ @charset "utf-8";
+/* CSS Document */
+
+
+.commentlist{
+    list-style: none;
+}
+.commentlist li{
+    padding: 7px 0;
+    border-bottom: 1px dotted #ccc;
+}
+.commentlist li:last-child{
+    border-bottom: none;
+}
+.commentlist .says{
+    display: none;
+}
+.commentlist .fn{
+    font-weight: 600; font-size: 20px;
+}
+.commentlist .comment-meta{
+    font-size: 13px; margin: 5px 0; font-style: italic;
+}
+.commentlist .reply{
+    display: none;
+}
+
+.commentlist .comment-meta a{
+    color: #ccc;
+}
+
+#options li{
+    position: relative;
+}
+#options li:hover ul.sub-menu{
+    display: block;
+}
+#options li ul.sub-menu{
+    position: absolute;
+    top: 100%; left: 0;
+    background: #000;
+    min-width: 100%;
+    display: none;
+}
+#options li ul.sub-menu li{
+    padding-left: 15px; padding-right: 15px;
+}
+#options li ul.sub-menu li:last-child{
+    padding-bottom: 15px;
+}
+#options li ul.sub-menu li a{
+    white-space: nowrap;
+}
