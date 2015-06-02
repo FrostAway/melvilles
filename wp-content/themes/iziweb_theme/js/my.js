@@ -3,7 +3,7 @@ $(document).ready(function () {
             $('.menu-porfolio').removeClass('menu');
     });
     
-    $('.menu-porfolio li a').click(function(e){
+    $('.menu-porfolio li a, .sub-portfolio li a').click(function(e){
        $('.menu-blog').removeClass('menu'); 
     });
 

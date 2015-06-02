@@ -1,9 +1,13 @@
 </div>
         <!-- end wrap -->
+        <div id="hotline">
+            <img class="icon" src="<?php echo get_template_directory_uri() ?>/images/icons/hotline.jpg" alt="icon" />
+            <strong class="phone"><a href="tel:<?php echo ot_get_option('iz_phone'); ?>"><?php echo ot_get_option('iz_phone'); ?></a></strong>
+        </div>
         <footer id="footer" class="clearfix">
             <div class="containing-wrapper">
-                <p class="alignleft">© 2015, Melville. All Rights Reserved. <span class="padding">&middot;</span> <a href="404.html" title=""><strong>Legal Notice</strong></a></p>
-                <p class="alignright">285 Lexington Ave, New York, NY <span class="padding">&middot;</span> (845)&nbsp;123-4567 <span class="padding">&middot;</span> <a href="mailto:info@barrow.com" title="Write Email">info@melville.com</a> </p>
+                <p class="alignleft">© 2015, D+Studio. All Rights Reserved. Design by <span class="padding">&middot;</span> <a href="http://vifonic.com" title=""><strong>Vifonic</strong></a></p>
+                <p class="alignright"><?php echo ot_get_option('iz_addr'); ?> <span class="padding">&middot;</span> <?php echo ot_get_option('iz_phone'); ?> <span class="padding">&middot;</span> <a href="mailto:<?php echo ot_get_option('iz_email'); ?>" title="Write Email"><?php echo ot_get_option('iz_email'); ?></a> </p>
             </div>
         </footer>
         <script src="<?php echo get_template_directory_uri() ?>/js/jquery-1.11.1.min.js" type="text/javascript"></script>

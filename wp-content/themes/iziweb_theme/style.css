@@ -61,3 +61,30 @@ License: GNU General Public License
 #options li ul.sub-menu li a{
     white-space: nowrap;
 }
+
+#hotline{
+    position: fixed;
+    bottom: 78px; right: 44px;
+    z-index: 1005;
+}
+#hotline .icon{
+    width: 48px; height: 43px; float: left;
+}
+#hotline .phone a{
+    height: 43px; padding: 13px;
+    background: #009900;
+    vertical-align: top;
+    float: left; color: #fff;
+}
+
+.background h2.post-hline{
+    padding: 2px 40px; 
+    border: 2px solid #fff; color: #33cc00; font-weight: bolder!important;
+    display: inline-block;
+}
+
+.background h3{
+    text-transform: uppercase;
+    font-size: 12px; font-weight: 600;
+    font-family: "Segoe UI Semilight";
+}

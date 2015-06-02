@@ -51,7 +51,7 @@
             <header id="header">
                 <div class="containing-wrapper">
                     <div class="logo-wrapper">
-                        <h1 id="logo"><a href="<?php echo home_url(); ?>" style="background: url(<?php echo ot_get_option('iz_logo'); ?>) center no-repeat;">Melville</a></h1>
+                        <h1 id="logo"><a href="<?php echo home_url(); ?>" style="background: url(<?php echo ot_get_option('iz_logo'); ?>) center no-repeat; background-size: 100% 100%;">Melville</a></h1>
                         <div class="tagline"><span><?php echo ot_get_option('text_logo'); ?></span></div>
                     </div>
                     <div id="menu-button">
@@ -73,24 +73,30 @@
                         <li class="selected"> <a href="#home">Trang chủ</a> </li>
                         <li> 
                             <a href="#portfolio">Công trình</a> 
-                            <ul class="sub-menu">
+                            <ul class="sub-menu sub-portfolio">
                                 <li><a href="#noi-that,.menu">Nội thất</a></li>
                                 <li><a href="#ngoai-that,.menu">Ngoại thất</a></li>
                             </ul>
                         </li>
-                        <li> <a href="#services">Services</a> </li>
-                        <li> <a href="#about">About</a> </li>
+                        <li> <a href="#services">Shop Nội Thất</a> </li>
+                        <li> <a href="#about">Báo giá</a> </li>
                         <li> <a href="#blog">Blog</a> </li>
-                        <li> <a href="#contact">Contact</a> </li>
+                        <li> <a href="#contact">Liên hệ</a> </li>
                     </ul>
                     <?php }else{ ?>
                     <ul id="options" class="option-set clearfix" data-option-key="filter">
-                        <li class="selected"> <a href="<?php echo home_url(); ?>#home">Home</a> </li>
-                        <li> <a href="<?php echo home_url(); ?>#portfolio">Portfolio</a> </li>
-                        <li> <a href="<?php echo home_url(); ?>#services">Services</a> </li>
-                        <li> <a href="<?php echo home_url(); ?>#about">About</a> </li>
+                        <li class="selected"> <a href=<?php echo home_url(); ?>"#home">Trang chủ</a> </li>
+                        <li> 
+                            <a href="<?php echo home_url(); ?>#portfolio">Công trình</a> 
+                            <ul class="sub-menu sub-portfolio">
+                                <li><a href="<?php echo home_url(); ?>#noi-that,.menu">Nội thất</a></li>
+                                <li><a href="<?php echo home_url(); ?>#ngoai-that,.menu">Ngoại thất</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="<?php echo home_url(); ?>#services">Shop Nội Thất</a> </li>
+                        <li> <a href="<?php echo home_url(); ?>#about">Báo giá</a> </li>
                         <li> <a href="<?php echo home_url(); ?>#blog">Blog</a> </li>
-                        <li> <a href="<?php echo home_url(); ?>#contact">Contact</a> </li>
+                        <li> <a href="<?php echo home_url(); ?>#contact">Liên hệ</a> </li>
                     </ul>
                     <?php } ?>
                     <div class="social-links">
